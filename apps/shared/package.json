@@ -1,0 +1,13 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "license": "MIT",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "clean": "rm -rf node_modules .next .turbo"
+  },
+  "dependencies": {
+    "feather-route-matcher": "4.0.0"
+  }
+}

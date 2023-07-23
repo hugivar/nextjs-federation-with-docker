@@ -1,0 +1,25 @@
+{
+  "name": "nextjs13-with-docker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "dev": "turbo run dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "prune": ""
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "^7.0.6"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "turbo": "^1.9.3"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0"
+  }
+}
